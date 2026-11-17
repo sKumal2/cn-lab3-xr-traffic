@@ -20,9 +20,9 @@ outputs/dummy/
 # Prediction outputs from predict.py
 *_predictions.csv
 
-# Office lock files and backups
+# Word documents (lab handout, report, backups) and Office lock files
 ~$*
-*_backup_original.docx
+*.docx
 
 # macOS
 .DS_Store
