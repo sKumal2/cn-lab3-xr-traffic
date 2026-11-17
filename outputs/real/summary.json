@@ -1,0 +1,67 @@
+{
+  "video": {
+    "classes": [
+      "A",
+      "B"
+    ],
+    "test_accuracy": 1.0,
+    "n_train": 47,
+    "n_test": 22,
+    "confusion_matrix": [
+      [
+        12,
+        0
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "application": {
+    "classes": [
+      "video",
+      "web"
+    ],
+    "test_accuracy": 1.0,
+    "n_train": 49,
+    "n_test": 23,
+    "confusion_matrix": [
+      [
+        22,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "case": {
+    "classes": [
+      "videoA_user1",
+      "videoB_user1",
+      "web_user2"
+    ],
+    "test_accuracy": 1.0,
+    "n_train": 49,
+    "n_test": 23,
+    "confusion_matrix": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  }
+}

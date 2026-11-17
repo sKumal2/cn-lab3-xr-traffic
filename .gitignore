@@ -1,0 +1,28 @@
+# Python environment and cache
+.venv
+__pycache__/
+*.pyc
+
+# Notes and text files (STEPS.txt, report.txt, ...)
+*.txt
+# ...but keep the package list, it's needed to set up the project
+!requirements.txt
+
+# Wireshark captures: ~2.2 GB, too big for git (GitHub limit is 100 MB/file)
+data/raw/
+*.pcap
+*.pcapng
+
+# Dummy data and its results: regenerate with make_dummy_data.py + train.py
+data/dummy/
+outputs/dummy/
+
+# Prediction outputs from predict.py
+*_predictions.csv
+
+# Office lock files and backups
+~$*
+*_backup_original.docx
+
+# macOS
+.DS_Store

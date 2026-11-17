@@ -1,0 +1,4 @@
+session_id,file,case,video,application,user,start_s,end_s,local_ips
+videoA_u1,raw/video_packets/Video1.pcapng,videoA_user1,A,video,1,,,10.200.60.15
+videoB_u1,raw/video_packets/Video2.pcapng,videoB_user1,B,video,1,5,,10.200.60.15
+web_u2,raw/video_packets/WebVideo.pcapng,web_user2,,web,2,,,10.200.60.15
